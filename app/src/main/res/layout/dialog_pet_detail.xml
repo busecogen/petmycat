@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnDialogClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_outline"
+        android:text="close" />
+
+    <TextView
+        android:id="@+id/tvDialogDetail"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_margin="10dp"
+        android:text="TextView" />
+</LinearLayout>
